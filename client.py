@@ -15,5 +15,3 @@ plaintext = f.decrypt(data) # here we decrypt a message we receive from the serv
 print(plaintext.decode())
 
 sock.close()
-
-print(f.decrypt(b"gAAAAABiaX46nQw0Nz4AFHLlRNTSSr9htfR8fYY85pF1OQUROT87z-4S6LHiIxDxOXMRWaoDbPVIPX4G3iuFVty2RfvHSiXKFaeDnYZh3aVH2VGRYvkN-Qo="))
